@@ -307,3 +307,46 @@ Received Import Request.
   path: Assets/prefabs/coleccionable1 1.prefab
   artifactKey: Guid(dd7b99c0a1ad76e47ad54ce99282bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefabs/coleccionable1 1.prefab using Guid(dd7b99c0a1ad76e47ad54ce99282bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d69e9e2cac44691f45984baa5f2477d') in 0.011562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.947761 seconds.
+  path: Assets/Scenes/Bosque.unity
+  artifactKey: Guid(0c1c057f49f53b74fb52b3b543a14787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bosque.unity using Guid(0c1c057f49f53b74fb52b3b543a14787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5f81d27c65f0f8d7bc5fa9a9e05fc6') in 0.002447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.923837 seconds.
+  path: Assets/Scenes/Pueblo.unity
+  artifactKey: Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pueblo.unity using Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9efd66a9096db811a2f27335faeea46') in 0.002796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.235379 seconds.
+  path: Assets/Scenes/Pueblo.unity
+  artifactKey: Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pueblo.unity using Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682d7741841ae2fb6abf28a7b55aee58') in 0.002469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.344449 seconds.
+  path: Assets/Scenes/Bosque.unity
+  artifactKey: Guid(0c1c057f49f53b74fb52b3b543a14787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bosque.unity using Guid(0c1c057f49f53b74fb52b3b543a14787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8411c0b40d84b9579850c7cbf32dbb12') in 0.002283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.223636 seconds.
+  path: Assets/Scenes/Jefe.unity
+  artifactKey: Guid(78489e3ef7792834187593cd4ba56e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jefe.unity using Guid(78489e3ef7792834187593cd4ba56e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013706fbdabd86b00f80d93410deec7') in 0.004947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.116563 seconds.
+  path: Assets/Scenes/Pueblo.unity
+  artifactKey: Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pueblo.unity using Guid(d4f0de9cafebd424b8eceed775dab325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e31899ef328f7b8a6846c429c05a6c') in 0.003007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.665337 seconds.
+  path: Assets/Scenes/Jefe.unity
+  artifactKey: Guid(78489e3ef7792834187593cd4ba56e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jefe.unity using Guid(78489e3ef7792834187593cd4ba56e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36f24162fd23c2abd4aa21c60de5384') in 0.002149 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
