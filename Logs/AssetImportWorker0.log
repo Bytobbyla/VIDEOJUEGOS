@@ -650,3 +650,15 @@ Received Import Request.
   path: Assets/prefabs/npc.prefab
   artifactKey: Guid(288f0acb535d47b41885afc270fabb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefabs/npc.prefab using Guid(288f0acb535d47b41885afc270fabb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9726eab07b51dc298af3efcaff9af6f0') in 0.154065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 795.254175 seconds.
+  path: Assets/prefabs/coleccionable1 1.prefab
+  artifactKey: Guid(dd7b99c0a1ad76e47ad54ce99282bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/coleccionable1 1.prefab using Guid(dd7b99c0a1ad76e47ad54ce99282bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac37cfe66b6d5319c4b595a624bcad6') in 0.033576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/prefabs/coleccionable1.prefab
+  artifactKey: Guid(8e27161e30761dd4ab5970dce979c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/coleccionable1.prefab using Guid(8e27161e30761dd4ab5970dce979c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af29337527862f9e56743f559b6f6dc') in 0.024379 seconds 
