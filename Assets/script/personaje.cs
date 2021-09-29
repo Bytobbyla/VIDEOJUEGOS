@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
 {
+    
     public float speed;
     [SerializeField] float fireRate1;
     public float altura;
@@ -29,6 +31,7 @@ public class personaje : MonoBehaviour
         maxX = esquinaInfDer.x;
         minX = esquinaInfIzq.x;
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -78,5 +81,20 @@ public class personaje : MonoBehaviour
                 Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 nextFire = Time.time + fireRate1;
             }     
+    }
+    void OnCollisionEnter2D (Collision2D collision)
+    {
+       
+        int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+        int previousSecene = SceneManager.GetActiveScene().buildIndex - 1;
+
+        if (collision.gameObject.CompareTag("Entrada"))
+        {
+            SceneManager.LoadScene(nextScene);
+        }
+        if (collision.gameObject.CompareTag("Salida"))
+        {
+            SceneManager.LoadScene(previousSecene);
+        }
     }
 }

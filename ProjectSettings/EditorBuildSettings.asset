@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1b4ad7dd178d7474e945c5fa5b0a5cad
+  - enabled: 1
+    path: Assets/Scenes/Aldea.unity
+    guid: e8bdb5d4864d21e40871072cf73d7018
+  - enabled: 1
+    path: Assets/Scenes/Bosque.unity
+    guid: 0c1c057f49f53b74fb52b3b543a14787
+  - enabled: 1
     path: Assets/Scenes/Cueva.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Jefe.unity
+    guid: 78489e3ef7792834187593cd4ba56e85
   m_configObjects: {}

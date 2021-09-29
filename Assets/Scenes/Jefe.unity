@@ -772,6 +772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salida
       objectReference: {fileID: 0}
+    - target: {fileID: 6766615598683709674, guid: 6feeaa7378b675144be1a82a4b92960f, type: 3}
+      propertyPath: m_TagString
+      value: Salida
+      objectReference: {fileID: 0}
     - target: {fileID: 6766615598683709675, guid: 6feeaa7378b675144be1a82a4b92960f, type: 3}
       propertyPath: m_Color.b
       value: 0.64759254
