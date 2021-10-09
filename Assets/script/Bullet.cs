@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [SerializeField] int puntosDeDano;
     private Rigidbody2D MyRb;
     public float speed;
     // Start is called before the first frame update
@@ -28,6 +29,10 @@ public class Bullet : MonoBehaviour
             Destroy(this.gameObject);
         }
         
+    }
+    public int darPuntosDeDano()
+    {
+        return puntosDeDano;
     }
 
 }

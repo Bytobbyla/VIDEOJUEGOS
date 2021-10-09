@@ -8,6 +8,7 @@ public class personaje : MonoBehaviour
     
     public float speed;
     [SerializeField] float fireRate1;
+    [SerializeField] int PuntosSalud;
     public float altura;
     public float tiempoSalto;
     private Rigidbody2D MyRb;
