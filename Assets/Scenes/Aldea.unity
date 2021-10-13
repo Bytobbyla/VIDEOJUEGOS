@@ -1300,11 +1300,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0218
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.67
+      value: 7.6809
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1345,6 +1349,14 @@ PrefabInstance:
     - target: {fileID: 8406132846536793896, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Name
       value: npc
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406132846536793896, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
@@ -1879,6 +1891,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8406132846536793896, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
   m_PrefabInstance: {fileID: 798230254}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1121428090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121428089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e559894b6dc6bd408d288356a222a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogo:
+    name: Viejita
+    sentences:
+    - trial 1
+    - wadwd
+    - ojala funcione
 --- !u!61 &1121428091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1905,6 +1935,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1121428093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121428089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30ed4db0af93fd74ba21190dfd8ec502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogo:
+    name: 
+    sentences: []
 --- !u!1 &1131177297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3330,7 +3375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580821, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580821, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_LocalPosition.x
