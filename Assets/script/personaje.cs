@@ -97,5 +97,16 @@ public class personaje : MonoBehaviour
         {
             SceneManager.LoadScene(previousSecene);
         }
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            PuntosSalud--;
+            if (PuntosSalud == 0)
+            {
+                (GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
+                Time.timeScale = 0;                     
+            }
+
+
+        }
     }
 }

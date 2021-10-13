@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jefe.unity
     guid: 78489e3ef7792834187593cd4ba56e85
+  - enabled: 1
+    path: Assets/Scenes/death.unity
+    guid: 0a9dab28198f26842a411a54d94c50b0
   m_configObjects: {}
