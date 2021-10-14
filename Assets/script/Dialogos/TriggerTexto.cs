@@ -8,15 +8,11 @@ public class TriggerTexto : MonoBehaviour
 {
     public Dialogo dialogo;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        GameObject objeto = collision.gameObject;
-        string etiqueta = objeto.tag;
-        if (etiqueta == "Player")
-        {
-          FindObjectOfType<DialogueManager>().StartDialogo(dialogo);   
-        }
 
+          FindObjectOfType<DialogueManager>().StartDialogo(dialogo);   
+  
     }
   
     
