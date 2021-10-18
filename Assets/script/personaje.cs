@@ -5,22 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
 {
-    
+
     public float speed;
     [SerializeField] float fireRate1;
-    [SerializeField] int PuntosSalud;
+    [SerializeField] public int PuntosSalud;
     public float altura;
     public float tiempoSalto;
     private Rigidbody2D MyRb;
-    float maxX, minX,nextFire;
-    
-    
+    float maxX, minX, nextFire;
+
+
+
     public Transform Cheker;
     public Transform FirePoint;
     public GameObject Bullet;
     public float RadioDeCheker;
     public bool TocaElPiso;
     public LayerMask Piso;
+    public HitEnemigo hitEnemigo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,15 +35,17 @@ public class personaje : MonoBehaviour
         maxX = esquinaInfDer.x;
         minX = esquinaInfIzq.x;
     }
-    
+
 
     // Update is called once per frame
     void Update()
     {
+        Dano();
+
         float movH = Input.GetAxis("Horizontal");
         float movV = Input.GetAxis("Vertical");
-        
-       
+
+
         //PERSONAJE MIRANDO A LA DERECHA
         if (movH > 0.1f)
         {
@@ -50,42 +55,44 @@ public class personaje : MonoBehaviour
         }
 
         //PERSONAJE MIRANDO A LA IZQUIERDA
-       if (movH < -0.1f)
+        if (movH < -0.1f)
         {
             Vector2 movimiento = new Vector2(-movH * Time.deltaTime * speed, 0);
             transform.eulerAngles = new Vector3(0, 180, 0);
             transform.Translate(movimiento);
         }
-       
-       //PERSONAJE QUIETO
+
+        //PERSONAJE QUIETO
         if (movH == 0)
         {
             Vector2 movimiento = new Vector2(0f, 0f);
             transform.Translate(movimiento);
         }
-        
-        
+
+
         //COLLIDER PARA PODER SALTAR AL TOCAR PISO
         if (Input.GetKeyDown(KeyCode.Space) && TocaElPiso == true)
         {
             MyRb.velocity = new Vector2(MyRb.velocity.x, altura);
-           
+
         }
-        TocaElPiso = Physics2D.OverlapCircle(Cheker.position,RadioDeCheker,Piso);
+        TocaElPiso = Physics2D.OverlapCircle(Cheker.position, RadioDeCheker, Piso);
         Disparo();
     }
     public void Disparo()
     {
         //DISPARAR RAFAGA CADA 1 SEGUNDO 
-            if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextFire)
-            {
-                Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
-                nextFire = Time.time + fireRate1;
-            }     
+        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextFire)
+        {
+            Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+            nextFire = Time.time + fireRate1;
+        }
     }
-    void OnCollisionEnter2D (Collision2D collision)
+    //(GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
+    //Time.timeScale = 0;
+    void OnCollisionEnter2D(Collision2D collision)
     {
-       
+
         int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
         int previousSecene = SceneManager.GetActiveScene().buildIndex - 1;
 
@@ -97,16 +104,17 @@ public class personaje : MonoBehaviour
         {
             SceneManager.LoadScene(previousSecene);
         }
-        if (collision.gameObject.CompareTag("Enemigo"))
+       
+
+    }
+    public void Dano()
+    {
+        if (PuntosSalud < 1)
         {
-            PuntosSalud--;
-            if (PuntosSalud == 0)
-            {
-                (GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
-                Time.timeScale = 0;                     
-            }
-
-
+            (GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
+            Time.timeScale = 0;
         }
     }
+   
+    
 }
