@@ -1074,9 +1074,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3136046051060005372, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ce9695066cba98844abd88795bedc987, type: 3}
     - target: {fileID: 3136046051060005375, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.6364102
+      value: 1.6342028
       objectReference: {fileID: 0}
     - target: {fileID: 3136046051060005375, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
       propertyPath: m_LocalScale.y
@@ -1084,11 +1088,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3136046051060005375, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 2.52
       objectReference: {fileID: 0}
     - target: {fileID: 3136046051060005375, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.14
+      value: -1.94
       objectReference: {fileID: 0}
     - target: {fileID: 3136046051791961747, guid: 8c083aa91a83b0f4eba3fe3c8ee2ab97, type: 3}
       propertyPath: m_Name
@@ -3032,6 +3036,10 @@ PrefabInstance:
       propertyPath: personaje
       value: 
       objectReference: {fileID: 1392617670}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: puntosDano
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4591a062541212c4c94051ede135b531, type: 3}
 --- !u!114 &5131640562849505956 stripped
