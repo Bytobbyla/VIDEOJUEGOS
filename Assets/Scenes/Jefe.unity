@@ -508,10 +508,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4476232938615768630, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: PuntosSaludEnemigo
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
       propertyPath: personaje
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1617673822}
     - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
       propertyPath: puntosDano
       value: 2
@@ -1274,7 +1278,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 84d1faeaa40de0d4fac28d656ac1b5fa, type: 2}
     - target: {fileID: 2357459518478592873, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: Bullet
@@ -1290,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: PuntosSalud
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580810, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_Name
@@ -1298,7 +1302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580810, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580810, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_TagString
@@ -1370,7 +1374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5924178979122895190, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
@@ -1389,6 +1393,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: -8240276611954413581, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
   m_PrefabInstance: {fileID: 1617673818}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1617673822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
+  m_PrefabInstance: {fileID: 1617673818}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617673820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848cda5d2a55ae243bd766721ab60b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1623177910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,6 +1635,10 @@ PrefabInstance:
     - target: {fileID: 8852724833255874448, guid: 7450f116700e63541b624a57e2e25fd4, type: 3}
       propertyPath: m_Name
       value: Canvas 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852724833255874448, guid: 7450f116700e63541b624a57e2e25fd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8852724833255874452, guid: 7450f116700e63541b624a57e2e25fd4, type: 3}
       propertyPath: m_Pivot.x
