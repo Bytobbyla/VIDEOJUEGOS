@@ -2085,7 +2085,9 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+    - {fileID: 5892251427680907283, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
 --- !u!1 &818400971
 GameObject:
@@ -2704,12 +2706,16 @@ MonoBehaviour:
   dialogo:
     name: 'VIEJITA '
     sentences:
-    - El dialogo continua con la tecla "Z"
-    - El trigger tambien se activa con las balas que tira el personaje, no solo con
-      Alisa
-    - 'Y asi es como se puede ir progresando con lo que sea que diga la viejita '
-    - Por lo que a su vez, ya esta listo el sistema para otros triggers :3
-    - :,3 no borren mi cajita xd
+    - "\xBFAcaso has olvidado como hablar conmigo? no se que sea \"z\" pero solias
+      decir que al oprimirlo hacias que las personas hablaran"
+    - Alissa, creo que has perdido quien eres desde hace mucho tiempo
+    - No creo que me recuerdes, no espero que lo hagas, pero despues de todo lo que
+      has pasado
+    - "espero que encuentres tus recuerdos mi ni\xF1a"
+    - Fragmentos de tu memoria se encuentran esparcidos en estas tierras, encuentralos
+      y recordaras quien eres
+    - Pero cuidado, pues hay quienes resguardan esas memorias, confio en que lograras
+      ser quien eres antes Alissa, confio en ti
 --- !u!61 &1121428091
 BoxCollider2D:
   m_ObjectHideFlags: 0
