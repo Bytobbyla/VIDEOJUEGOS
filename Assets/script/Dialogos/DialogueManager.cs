@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Image characterImage;
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
@@ -31,13 +32,15 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogo(Dialogo dialogo)
     {
+        (GameObject.Find("personaje").GetComponent<personaje>()).enDialogo();
         animator.SetBool("IsOpen", true);
         nameText.text = dialogo.name;
-
+        
         sentences.Clear();
         foreach (string sentence in dialogo.sentences)
         {
             sentences.Enqueue(sentence);
+
         }
        
             DisplayNextSentence();
@@ -63,6 +66,7 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("fin de la conversacion");
         animator.SetBool("IsOpen", false);
+        (GameObject.Find("personaje").GetComponent<personaje>()).fueraDialogo();
 
     }
 
@@ -71,8 +75,10 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+
             dialogueText.text += letter;
             yield return null;
         }
     }
+   
 }

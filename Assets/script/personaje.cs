@@ -13,6 +13,7 @@ public class personaje : MonoBehaviour
     public float tiempoSalto;
     private Rigidbody2D MyRb;
     float maxX, minX, nextFire;
+    private bool InDialogue;
 
 
 
@@ -27,6 +28,7 @@ public class personaje : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InDialogue = false;
         //CÓDIGO PARA QUE LA CAMARA SIGA AL PERSONAJE
         MyRb = GetComponent<Rigidbody2D>();
         Vector2 esquinaInfDer = Camera.main.ViewportToWorldPoint(new Vector2(1, 0));
@@ -40,44 +42,48 @@ public class personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Dano();
-
-        float movH = Input.GetAxis("Horizontal");
-        float movV = Input.GetAxis("Vertical");
-
-
-        //PERSONAJE MIRANDO A LA DERECHA
-        if (movH > 0.1f)
+        if (InDialogue == false)
         {
-            Vector2 movimiento = new Vector2(movH * Time.deltaTime * speed, 0);
-            transform.eulerAngles = new Vector3(0, 0, 0);
-            transform.Translate(movimiento);
+            Dano();
+
+            float movH = Input.GetAxis("Horizontal");
+            float movV = Input.GetAxis("Vertical");
+
+
+            //PERSONAJE MIRANDO A LA DERECHA
+            if (movH > 0.1f)
+            {
+                Vector2 movimiento = new Vector2(movH * Time.deltaTime * speed, 0);
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                transform.Translate(movimiento);
+            }
+
+            //PERSONAJE MIRANDO A LA IZQUIERDA
+            if (movH < -0.1f)
+            {
+                Vector2 movimiento = new Vector2(-movH * Time.deltaTime * speed, 0);
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                transform.Translate(movimiento);
+            }
+
+            //PERSONAJE QUIETO
+            if (movH == 0)
+            {
+                Vector2 movimiento = new Vector2(0f, 0f);
+                transform.Translate(movimiento);
+            }
+
+
+            //COLLIDER PARA PODER SALTAR AL TOCAR PISO
+            if (Input.GetKeyDown(KeyCode.Space) && TocaElPiso == true)
+            {
+                MyRb.velocity = new Vector2(MyRb.velocity.x, altura);
+
+            }
+            TocaElPiso = Physics2D.OverlapCircle(Cheker.position, RadioDeCheker, Piso);
+            Disparo();
         }
-
-        //PERSONAJE MIRANDO A LA IZQUIERDA
-        if (movH < -0.1f)
-        {
-            Vector2 movimiento = new Vector2(-movH * Time.deltaTime * speed, 0);
-            transform.eulerAngles = new Vector3(0, 180, 0);
-            transform.Translate(movimiento);
-        }
-
-        //PERSONAJE QUIETO
-        if (movH == 0)
-        {
-            Vector2 movimiento = new Vector2(0f, 0f);
-            transform.Translate(movimiento);
-        }
-
-
-        //COLLIDER PARA PODER SALTAR AL TOCAR PISO
-        if (Input.GetKeyDown(KeyCode.Space) && TocaElPiso == true)
-        {
-            MyRb.velocity = new Vector2(MyRb.velocity.x, altura);
-
-        }
-        TocaElPiso = Physics2D.OverlapCircle(Cheker.position, RadioDeCheker, Piso);
-        Disparo();
+        
     }
     public void Disparo()
     {
@@ -115,6 +121,17 @@ public class personaje : MonoBehaviour
             Time.timeScale = 0;
         }
     }
-   
-    
+    public void enDialogo()
+    {
+        InDialogue = true;
+    }
+    public void fueraDialogo()
+    {
+        InDialogue = false;
+
+    }
+
+
+
+
 }

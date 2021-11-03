@@ -66,6 +66,14 @@ public class GameManager : MonoBehaviour
             GameOverMenu.SetActive(true);
         }
     }
+    public void DetenerJuego()
+    {
+        Time.timeScale = 0;
+    }
+    public void AvanzarJuego()
+    {
+        Time.timeScale = 1;
+    }
 
     
 }
