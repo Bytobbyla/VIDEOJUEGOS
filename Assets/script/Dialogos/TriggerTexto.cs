@@ -7,20 +7,17 @@ public class TriggerTexto : MonoBehaviour
 
 {
     public Dialogo dialogo;
-    
+    [SerializeField] private GameObject activarDialogo;
     
 
     void OnTriggerEnter2D(Collider2D other)
     {
 
-         FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
-        activarDialogo.SetActive(true);     
+        FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
+        activarDialogo.SetActive(true); 
 
     }
-    public bool DialogueActive()
-    {
-        return activarDialogo.activeInHierarchy;
-    }
+    
 
 
 }
