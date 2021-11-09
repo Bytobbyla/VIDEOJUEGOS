@@ -6,8 +6,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] GameObject Background;
     [SerializeField] GameObject GameOverMenu;
-    public GameObject currentCheckpoint;
+    
     
 
     int contador=1;
@@ -69,6 +70,7 @@ public class GameManager : MonoBehaviour
         if(personaje < 1)
         {
             Time.timeScale = 0;
+            Background.SetActive(false);
             GameOverMenu.SetActive(true);
         }
     }

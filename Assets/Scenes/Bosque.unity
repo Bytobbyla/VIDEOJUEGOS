@@ -886,8 +886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 732330645}
+  Background: {fileID: 1131776456}
   GameOverMenu: {fileID: 726495646}
-  currentCheckpoint: {fileID: 0}
 --- !u!4 &183178077
 Transform:
   m_ObjectHideFlags: 0
