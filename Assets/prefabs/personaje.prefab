@@ -184,6 +184,8 @@ MonoBehaviour:
   PuntosSalud: 5
   altura: 5.5
   tiempoSalto: 1
+  InDialogue: 0
+  barraDeVida: {fileID: 0}
   Cheker: {fileID: 2357459518478592872}
   FirePoint: {fileID: 0}
   Bullet: {fileID: 0}
@@ -192,6 +194,7 @@ MonoBehaviour:
   Piso:
     serializedVersion: 2
     m_Bits: 8
+  hitEnemigo: {fileID: 0}
 --- !u!95 &-8240276611954413581
 Animator:
   serializedVersion: 3
