@@ -7,12 +7,15 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject GameOverMenu;
+    public GameObject currentCheckpoint;
+    
 
     int contador=1;
     int personaje = 1;
     // Start is called before the first frame update
     void Start()
     {
+        
         pauseMenu.SetActive(true);
         pauseMenu.SetActive(false);
     }
@@ -23,6 +26,7 @@ public class GameManager : MonoBehaviour
        
         PauseGame();
     }
+    
     public void Menu()
     {
         

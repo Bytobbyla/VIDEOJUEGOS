@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
@@ -8,15 +9,15 @@ public class personaje : MonoBehaviour
 
     public float speed;
     [SerializeField] float fireRate1;
-    [SerializeField] public int PuntosSalud;
+    [SerializeField] public float PuntosSalud;
     public float altura;
     public float tiempoSalto;
     private Rigidbody2D MyRb;
     float maxX, minX, nextFire;
     private bool InDialogue;
+    float vidaMaxima =10f;
 
-
-
+    public Image barraDeVida;
     public Transform Cheker;
     public Transform FirePoint;
     public GameObject Bullet;
@@ -24,7 +25,7 @@ public class personaje : MonoBehaviour
     public bool TocaElPiso;
     public LayerMask Piso;
     public HitEnemigo hitEnemigo;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +43,7 @@ public class personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        barraDeVida.fillAmount = PuntosSalud / vidaMaxima;
         if (InDialogue == false)
         {
             Dano();
@@ -114,6 +116,10 @@ public class personaje : MonoBehaviour
         {
             PuntosSalud = 0;
         }
+        if (collision.gameObject.CompareTag("Salud"))
+        {
+            PuntosSalud = 10;
+        }
 
     }
     public void Dano()
@@ -121,6 +127,7 @@ public class personaje : MonoBehaviour
         if (PuntosSalud < 1)
         {
             (GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
+            
             Time.timeScale = 0;
         }
     }

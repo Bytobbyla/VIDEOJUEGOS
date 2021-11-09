@@ -12,6 +12,7 @@ TagManager:
   - Hit
   - DanoA
   - DeathZone
+  - Salud
   layers:
   - Default
   - TransparentFX
