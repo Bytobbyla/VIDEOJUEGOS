@@ -110,7 +110,10 @@ public class personaje : MonoBehaviour
         {
             SceneManager.LoadScene(previousSecene);
         }
-       
+        if (collision.gameObject.CompareTag("DeathZone"))
+        {
+            PuntosSalud = 0;
+        }
 
     }
     public void Dano()
