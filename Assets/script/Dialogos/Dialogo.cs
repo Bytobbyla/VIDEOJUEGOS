@@ -8,5 +8,6 @@ public class Dialogo
 
     [TextArea(3 , 10)]
     public string[] sentences;
-
+    public string[] characterName;
+    public Sprite[] characterImage;
 }

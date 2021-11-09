@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     
     
 
-    int contador=1;
+    
     int personaje = 1;
     // Start is called before the first frame update
     void Start()

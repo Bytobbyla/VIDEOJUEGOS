@@ -14,7 +14,8 @@ public class personaje : MonoBehaviour
     public float tiempoSalto;
     private Rigidbody2D MyRb;
     float maxX, minX, nextFire;
-    private bool InDialogue;
+    public bool InDialogue;
+    private bool rangodialogo;
     float vidaMaxima =10f;
 
     public Image barraDeVida;
@@ -43,6 +44,7 @@ public class personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         barraDeVida.fillAmount = PuntosSalud / vidaMaxima;
         if (InDialogue == false)
         {
@@ -90,7 +92,7 @@ public class personaje : MonoBehaviour
     public void Disparo()
     {
         //DISPARAR RAFAGA CADA 1 SEGUNDO 
-        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextFire)
+        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextFire && rangodialogo==false)
         {
             Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
             nextFire = Time.time + fireRate1;
@@ -134,11 +136,20 @@ public class personaje : MonoBehaviour
     public void enDialogo()
     {
         InDialogue = true;
+        FindObjectOfType<TriggerTexto>().enDialogo();
     }
     public void fueraDialogo()
     {
         InDialogue = false;
-
+        FindObjectOfType<TriggerTexto>().fueraDialogo();
+    }
+    public void rangoDialogo()
+    {
+        rangodialogo = true;
+    }
+    public void fueraRangoDialogo()
+    {
+        rangodialogo = false;
     }
 
 

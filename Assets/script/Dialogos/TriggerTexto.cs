@@ -7,17 +7,47 @@ public class TriggerTexto : MonoBehaviour
 
 {
     public Dialogo dialogo;
+    
     [SerializeField] private GameObject activarDialogo;
+    public bool dialogue;
+    private bool In;
     
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void Update()
     {
-
-        FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
-        activarDialogo.SetActive(true); 
-
+        
+        
+        if (Input.GetKey(KeyCode.E) && dialogue==true && In==false)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
+            activarDialogo.SetActive(true);
+        }
     }
     
+    void OnTriggerEnter2D(Collider2D other)
+    {
+       
+        dialogue = true;
+        FindObjectOfType<personaje>().rangoDialogo();
+
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+       
+        dialogue = false;
+        FindObjectOfType<personaje>().fueraRangoDialogo();
+
+    }
+    public void enDialogo()
+    {
+        In = true;
+    }
+    public void fueraDialogo()
+    {
+        In = false;
+    }
+
+
 
 
 }
