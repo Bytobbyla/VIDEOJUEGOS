@@ -11,7 +11,11 @@ public class TriggerTexto : MonoBehaviour
     [SerializeField] private GameObject activarDialogo;
     public bool dialogue;
     private bool In;
-    
+    private void Start()
+    {
+        dialogue = false;
+        In = false;
+    }
 
     private void Update()
     {
@@ -26,16 +30,24 @@ public class TriggerTexto : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-       
-        dialogue = true;
-        FindObjectOfType<personaje>().rangoDialogo();
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            dialogue = true;
+            FindObjectOfType<personaje>().rangoDialogo();
+        }
+
 
     }
     void OnTriggerExit2D(Collider2D other)
     {
-       
-        dialogue = false;
-        FindObjectOfType<personaje>().fueraRangoDialogo();
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            dialogue = false;
+            FindObjectOfType<personaje>().fueraRangoDialogo();
+        }
+
 
     }
     public void enDialogo()

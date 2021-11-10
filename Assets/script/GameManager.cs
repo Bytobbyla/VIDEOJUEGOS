@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        pauseMenu.SetActive(true);
         pauseMenu.SetActive(false);
     }
 
