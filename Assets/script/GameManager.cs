@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject Background;
     [SerializeField] GameObject GameOverMenu;
-    
-    
+
+    public GameObject objetoActivarDesactivar;
 
     
     int personaje = 1;
@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
             {
                 Time.timeScale = 0;
                 pauseMenu.SetActive(true);
+                
             }
             else
             {
@@ -83,6 +84,10 @@ public class GameManager : MonoBehaviour
     public void SalirJuego()
     {
         Application.Quit();
+    }
+    public void ActivarObjeto()
+    {
+        objetoActivarDesactivar.SetActive(true);
     }
 
 

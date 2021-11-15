@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jefe.unity
     guid: 78489e3ef7792834187593cd4ba56e85
+  - enabled: 1
+    path: Assets/Scenes/Finale.unity
+    guid: 78c0e373ad1ccf043a3e0ea7db95dac3
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 58d9113614a8b8f4c9258ec5d65e8e84
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
