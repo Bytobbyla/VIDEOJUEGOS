@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject GameOverMenu;
 
     public GameObject objetoActivarDesactivar;
+    public GameObject SaludBoss;
 
     
     int personaje = 1;
@@ -87,7 +88,12 @@ public class GameManager : MonoBehaviour
     }
     public void ActivarObjeto()
     {
+        
         objetoActivarDesactivar.SetActive(true);
+    }
+    public void BossSalud()
+    {
+        SaludBoss.SetActive(false);
     }
 
 

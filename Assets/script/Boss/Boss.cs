@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -15,32 +17,70 @@ public class Boss : MonoBehaviour
     public GameObject target;
     public bool atacando;
 
+    public Image barraDeVida;
     public float rango_vision;
     public float rango_ataque;
     public GameObject rango;
     public GameObject Hit;
+    float vidaMaxima = 30f;
 
 
-   
-  
-   
 
+    public Transform[] transforms;
+    public GameObject Disparo;
+
+    public float timeToShoot;
+    private float countdown;
+    public float timeToTp;
+    private float countdownTp;
     //variable para guardar jugador
-   
+
     void Start()
     {
         ani = GetComponent<Animator>();
         target = GameObject.Find("personaje");
+
         
+        countdown = timeToShoot;
+        countdownTp = timeToTp;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        barraDeVida.fillAmount = PuntosSaludEnemigo / vidaMaxima;
         Comportamientos();
+        if(countdownTp <= 0)
+        {
+            Teleport();
+            countdownTp = timeToTp;
+        }
+        else
+        {
+            countdownTp -= Time.deltaTime;
+        }
 
+        if (countdown <= 0)
+        {
+
+            Instantiate(Disparo, transform.position, Quaternion.identity);
+            countdown = timeToShoot;
+        }
+        else
+        {
+            countdown -= Time.deltaTime;
+        }
 
     }
+    public void Teleport()
+    {
+        Debug.Log("tp");
+        var initialPosition = Random.Range(0, transforms.Length);
+        transform.position = transforms[initialPosition].position;
+    }
+   
     public void Final_Ani()
     {
         ani.SetBool("attack", false);
@@ -160,9 +200,12 @@ public class Boss : MonoBehaviour
             int puntos = collision.gameObject.GetComponent<Bullet>().darPuntosDeDano();
             if (PuntosSaludEnemigo < 1)
             {
-
+                
                 Destroy(this.gameObject);
+                
                 (GameObject.Find("GameManager").GetComponent<GameManager>()).ActivarObjeto();
+                (GameObject.Find("GameManager").GetComponent<GameManager>()).BossSalud();
+
             }
 
 
