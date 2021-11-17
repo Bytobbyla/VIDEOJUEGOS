@@ -60,8 +60,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2357459519023580810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.84, y: -2.6253, z: 0}
-  m_LocalScale: {x: 0.50418746, y: 0.509731, z: 1}
+  m_LocalPosition: {x: -5.731, y: -2.33, z: 0}
+  m_LocalScale: {x: 0.9150732, y: 0.9251344, z: 1.8149464}
   m_Children:
   - {fileID: 2357459518478592872}
   - {fileID: 2998169650539398637}
@@ -182,7 +182,7 @@ MonoBehaviour:
   speed: 3.5
   fireRate1: 0
   PuntosSalud: 5
-  altura: 5.5
+  altura: 6
   tiempoSalto: 1
   InDialogue: 0
   barraDeVida: {fileID: 0}
@@ -253,7 +253,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5924178979122895190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0, z: 0}
+  m_LocalPosition: {x: 0.449, y: 0.062, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2357459519023580821}

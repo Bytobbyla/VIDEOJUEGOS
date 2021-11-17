@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520993801351455339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.83, y: 1.62, z: 0}
-  m_LocalScale: {x: 2.3133621, y: 2.3133621, z: 4.6267242}
+  m_LocalPosition: {x: -2.6991, y: 1.7789, z: 0}
+  m_LocalScale: {x: 2.9365819, y: 2.9365819, z: 5.8731637}
   m_Children:
   - {fileID: 8327828969503989430}
   - {fileID: 8327828969224117198}
@@ -108,7 +108,7 @@ MonoBehaviour:
   direction: 0
   speed_walk: 1
   speed_run: 3
-  target: {fileID: 0}
+  target: {fileID: 2357459519023580810, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
   atacando: 0
   rango_vision: 6
   rango_ataque: 1
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07774aa801ea0f547b3acfccac5733d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntosDano: 0
+  puntosDano: 2
   dano: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
 --- !u!1 &8327828969503989429
 GameObject:
   m_ObjectHideFlags: 0
