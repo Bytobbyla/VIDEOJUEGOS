@@ -1269,10 +1269,10 @@ MonoBehaviour:
     - Alysa
     - "Ni\xF1o"
     characterImage:
-    - {fileID: 0}
+    - {fileID: 21300000, guid: eb5be7c45581daf4fa9de69df9a45e82, type: 3}
     - {fileID: 21300000, guid: 962fd99dea0cc8241a83f12faa7ca6d1, type: 3}
     - {fileID: 21300000, guid: f1c6395a0c344874282f08e4a2d81c08, type: 3}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 0f7b2bead6286754fb41acd68fe90ffa, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &481950769
@@ -1473,7 +1473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.13
+      value: 3.61
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1522,7 +1522,7 @@ PrefabInstance:
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3ba6aba8b51068642a81a30ea7ae7278, type: 3}
+      objectReference: {fileID: 21300000, guid: 194212613e51baf44a49e260deff749a, type: 3}
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1591,16 +1591,16 @@ MonoBehaviour:
     - Alysa
     - Dough
     characterImage:
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
     - {fileID: 21300000, guid: 962fd99dea0cc8241a83f12faa7ca6d1, type: 3}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
+    - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
+    - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
+    - {fileID: 21300000, guid: b9d17ac570ef9f544a56e69ad90773e0, type: 3}
+    - {fileID: 21300000, guid: b9d17ac570ef9f544a56e69ad90773e0, type: 3}
+    - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
     - {fileID: 21300000, guid: 1f36b701af95aaf44a7802e5a0e15815, type: 3}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &504153804
@@ -1620,7 +1620,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.150547, y: 21.52}
+    oldSize: {x: 10.540371, y: 21.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2834,6 +2834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8308069598990320161, guid: 12524effaad15fe4e95c7b2eb2ff07ca, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8308069598990320165, guid: 12524effaad15fe4e95c7b2eb2ff07ca, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3241,14 +3245,14 @@ MonoBehaviour:
   dialogo:
     name: 'VIEJITA '
     sentences:
-    - Alysa, creo que has perdido quien eres desde hace mucho tiempo
-    - No creo que me recuerdes, no espero que lo hagas, pero despues de todo lo que
-      has pasado
-    - 'No, no te recuerdo, y no entiendo que esta pasando '
-    - Fragmentos de tu memoria se encuentran esparcidos en estas tierras, encuentralos
-      y recordaras quien eres
-    - Pero cuidado, pues hay quienes resguardan esas memorias, confio en que lograras
-      ser quien eres antes Alysa, confio en ti
+    - "Alysa, creo que has perdido qui\xE9n eres desde hace mucho tiempo"
+    - "No creo que me recuerdes, no espero que lo hagas, pero despu\xE9s de todo
+      lo que has pasado"
+    - "No, no te recuerdo y no entiendo que est\xE1 pasando "
+    - "Fragmentos de tu memoria se encuentran dispersos en estas tierras, encuentralos
+      y recordaras qui\xE9n eres"
+    - "Pero cuidado, pues hay quienes resguardan esas memorias, confio en que lograras
+      ser quien eres antes Alysa, conf\xEDo en ti"
     - No se ni por donde empezar a buscar
     - "En el bosque, un gran entramado de cuevas, por ah\xED debes empezar tu b\xFAsqueda"
     characterName:
