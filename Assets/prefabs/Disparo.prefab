@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1285838251972460332}
   m_Layer: 12
   m_Name: Disparo
-  m_TagString: Untagged
+  m_TagString: disparoboss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eeb68bc666d337449adc48ab948e0fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntosDano: 1
+  puntosDanoDisparo: 0
   speed: 3
   personaje: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}

@@ -122,6 +122,10 @@ public class personaje : MonoBehaviour
         {
             PuntosSalud = 10;
         }
+        if (collision.gameObject.CompareTag("disparoboss"))
+        {
+            PuntosSalud--; ;
+        }
 
     }
     public void Dano()
