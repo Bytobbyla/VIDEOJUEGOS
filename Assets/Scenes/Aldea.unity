@@ -5400,6 +5400,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2357459519023580808, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3374162
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357459519023580808, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.02794823
+      objectReference: {fileID: 0}
     - target: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
       propertyPath: Bullet
       value: 
