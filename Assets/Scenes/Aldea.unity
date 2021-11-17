@@ -1157,23 +1157,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.049531672
+      value: 0.07633326
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.048474915
+      value: 0.07470469
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.048474915
+      value: 0.07470469
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.77
+      value: -5.7754
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7
+      value: -1.46
       objectReference: {fileID: 0}
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1218,7 +1218,7 @@ PrefabInstance:
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 87b15941951c63c4d8f4b4f4555855aa, type: 3}
+      objectReference: {fileID: 21300000, guid: 3ba6aba8b51068642a81a30ea7ae7278, type: 3}
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1292,7 +1292,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.78, y: 21.262674}
+    oldSize: {x: 10.150547, y: 21.52}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3260,13 +3260,13 @@ MonoBehaviour:
     - Alysa
     - 'VIEJITA '
     characterImage:
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 357943ba26b1fb44d93c76c66d9a19cf, type: 3}
+    - {fileID: 21300000, guid: 6473690a21f6b5a44b68c8c2fe93ea9a, type: 3}
     - {fileID: 21300000, guid: f1c6395a0c344874282f08e4a2d81c08, type: 3}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 7b0ebf9607144b64c8877d4a52bc9eb6, type: 3}
+    - {fileID: 21300000, guid: 94091351e61e4784d8ed841a4cd144f7, type: 3}
     - {fileID: 21300000, guid: 1f36b701af95aaf44a7802e5a0e15815, type: 3}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 357943ba26b1fb44d93c76c66d9a19cf, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &1121428091
