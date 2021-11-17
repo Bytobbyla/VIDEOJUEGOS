@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: alysa_salto
+  m_Name: fall_alysa
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,14 +20,6 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 5261536605985493213, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - time: 0.083333336
-      value: {fileID: -121020442435789178, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - time: 0.16666667
-      value: {fileID: 6967042014121434440, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - time: 0.25
-      value: {fileID: -4942231623753887082, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - time: 0.33333334
       value: {fileID: 44391658857448528, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
     attribute: m_Sprite
     path: 
@@ -48,17 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 5261536605985493213, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - {fileID: -121020442435789178, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - {fileID: 6967042014121434440, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
-    - {fileID: -4942231623753887082, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
     - {fileID: 44391658857448528, guid: 7c3195b33500b0143aa7ffec8c00cd55, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4166667
+    m_StopTime: 0.083333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

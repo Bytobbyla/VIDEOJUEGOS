@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
 {
-
+    Animator myAnimator;
     public float speed;
     [SerializeField] float fireRate1;
     [SerializeField] public float PuntosSalud;
@@ -30,6 +30,7 @@ public class personaje : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        myAnimator = GetComponent<Animator>();
         InDialogue = false;
         //CÓDIGO PARA QUE LA CAMARA SIGA AL PERSONAJE
         MyRb = GetComponent<Rigidbody2D>();
@@ -82,12 +83,28 @@ public class personaje : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space) && TocaElPiso == true)
             {
                 MyRb.velocity = new Vector2(MyRb.velocity.x, altura);
+                myAnimator.SetTrigger("salto");
+                myAnimator.SetBool("itsFalling", false);
 
             }
+            if (TocaElPiso == true)
+            {
+                myAnimator.SetBool("itsFalling", false);
+            }
+           
             TocaElPiso = Physics2D.OverlapCircle(Cheker.position, RadioDeCheker, Piso);
             Disparo();
+            caer();
         }
         
+    }
+    public void caer()
+    {
+        if (MyRb.velocity.y < 0 && !myAnimator.GetBool("takeof"))
+        {
+            myAnimator.SetBool("itsFalling", true);
+
+        }
     }
     public void Disparo()
     {
