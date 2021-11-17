@@ -1259,20 +1259,21 @@ MonoBehaviour:
   dialogo:
     name: "NI\xD1O"
     sentences:
-    - "\xA1AAahhhha no te me acerques!\r\n"
-    - "Lo siento ni\xF1o \xBFest\xE1s bien? "
-    - "\xBFQu\xE9 es este lugar?"
-    - "\xA1No me hables! habla con la anciana\r\n"
+    - "\xA1AAAGH! \xA1Como odio a esos bichos! porfavor, enc\xE1rgate de ellos\n"
+    - "\xBFC-Cu\xE1les bichos?"
+    - "\xA1Est\xE1n por todas partes! afortunadamente tenemos al herrero que nos
+      protege, pero el no durar\xE1 mucho tiempo..."
+    - "\xA1Los ayudar\xE9!"
     characterName:
-    - "Ni\xF1o"
+    - Mujer
     - Alysa
+    - Mujer
     - Alysa
-    - "Ni\xF1o"
     characterImage:
-    - {fileID: 21300000, guid: eb5be7c45581daf4fa9de69df9a45e82, type: 3}
-    - {fileID: 21300000, guid: 962fd99dea0cc8241a83f12faa7ca6d1, type: 3}
-    - {fileID: 21300000, guid: f1c6395a0c344874282f08e4a2d81c08, type: 3}
     - {fileID: 21300000, guid: 0f7b2bead6286754fb41acd68fe90ffa, type: 3}
+    - {fileID: 21300000, guid: 4a03608ad25eecb46a48d654264f349e, type: 3}
+    - {fileID: 21300000, guid: eb5be7c45581daf4fa9de69df9a45e82, type: 3}
+    - {fileID: 21300000, guid: 37b75312d91c43c4ca677414e2379d7a, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &481950769
@@ -1592,14 +1593,14 @@ MonoBehaviour:
     - Dough
     characterImage:
     - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
-    - {fileID: 21300000, guid: 962fd99dea0cc8241a83f12faa7ca6d1, type: 3}
+    - {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
     - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
     - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
     - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
     - {fileID: 21300000, guid: b9d17ac570ef9f544a56e69ad90773e0, type: 3}
     - {fileID: 21300000, guid: b9d17ac570ef9f544a56e69ad90773e0, type: 3}
     - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
-    - {fileID: 21300000, guid: 1f36b701af95aaf44a7802e5a0e15815, type: 3}
+    - {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
     - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
@@ -3266,10 +3267,10 @@ MonoBehaviour:
     characterImage:
     - {fileID: 21300000, guid: 357943ba26b1fb44d93c76c66d9a19cf, type: 3}
     - {fileID: 21300000, guid: 6473690a21f6b5a44b68c8c2fe93ea9a, type: 3}
-    - {fileID: 21300000, guid: f1c6395a0c344874282f08e4a2d81c08, type: 3}
+    - {fileID: 21300000, guid: 4a03608ad25eecb46a48d654264f349e, type: 3}
     - {fileID: 21300000, guid: 7b0ebf9607144b64c8877d4a52bc9eb6, type: 3}
     - {fileID: 21300000, guid: 94091351e61e4784d8ed841a4cd144f7, type: 3}
-    - {fileID: 21300000, guid: 1f36b701af95aaf44a7802e5a0e15815, type: 3}
+    - {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
     - {fileID: 21300000, guid: 357943ba26b1fb44d93c76c66d9a19cf, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
