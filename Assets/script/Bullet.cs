@@ -7,10 +7,12 @@ public class Bullet : MonoBehaviour
     [SerializeField] int puntosDeDano;
     private Rigidbody2D MyRb;
     public float speed;
+    Animator myAnimator;
     // Start is called before the first frame update
     void Start()
     {
         MyRb = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,11 +26,14 @@ public class Bullet : MonoBehaviour
     {
         GameObject objeto = collision.gameObject;
         string etiqueta = objeto.tag;
-        if(etiqueta != "Player")
+        if (etiqueta != "Player")
         {
-            Destroy(this.gameObject);
+            MyRb.velocity = transform.right * 0;
+            myAnimator.SetTrigger("explota");
+
+            Destroy(gameObject, 0.3f);
         }
-        
+
     }
     public int darPuntosDeDano()
     {

@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: efa2a69d96e4e7941a62c3553f0da861
+guid: 5224bddbb3a9e534681ef60ba9570138
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1320793897598001180
-    second: Alysa idle_Mesa de trabajo 1_0
+      213: -2852383434392936983
+    second: disparo_Mesa de trabajo 1_0
   - first:
-      213: -306963166689929087
-    second: Alysa idle_Mesa de trabajo 1_1
+      213: 1979882550941313717
+    second: disparo_Mesa de trabajo 1_1
   - first:
-      213: 4971850525788178506
-    second: Alysa idle_Mesa de trabajo 1_2
+      213: 65591071727082935
+    second: disparo_Mesa de trabajo 1_2
   - first:
-      213: -1888747395563651270
-    second: Alysa idle_Mesa de trabajo 1_3
-  - first:
-      213: -4372000740129239266
-    second: Alysa idle_Mesa de trabajo 1_4
-  - first:
-      213: -6042999017691919147
-    second: Alysa idle_Mesa de trabajo 1_5
+      213: 497310313348413069
+    second: disparo_Mesa de trabajo 1_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5500
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +77,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -95,7 +89,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -107,7 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -121,106 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alysa idle_Mesa de trabajo 1_0
+      name: disparo_Mesa de trabajo 1_0
       rect:
         serializedVersion: 2
-        x: 13791
-        y: 451
-        width: 2705
-        height: 7746
+        x: 110
+        y: 3361
+        width: 4364
+        height: 1759
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4efda20b2f89bade0800000000000000
-      internalID: -1320793897598001180
+      spriteID: 9eddcc5016c4a68d0800000000000000
+      internalID: -2852383434392936983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alysa idle_Mesa de trabajo 1_2
+      name: disparo_Mesa de trabajo 1_1
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 424
-        width: 2705
-        height: 7818
+        x: 4993
+        y: 3161
+        width: 4365
+        height: 1906
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4881f116bf8ff440800000000000000
-      internalID: 4971850525788178506
+      spriteID: 5bae9d1b0b4f97b10800000000000000
+      internalID: 1979882550941313717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alysa idle_Mesa de trabajo 1_3
+      name: disparo_Mesa de trabajo 1_2
       rect:
         serializedVersion: 2
-        x: 10550
-        y: 496
-        width: 2695
-        height: 7755
+        x: 10023
+        y: 2991
+        width: 3486
+        height: 2226
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3ffbf03042d9c5e0800000000000000
-      internalID: -1888747395563651270
+      spriteID: 7bddab27bb609e000800000000000000
+      internalID: 65591071727082935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alysa idle_Mesa de trabajo 1_4
+      name: disparo_Mesa de trabajo 1_4
       rect:
         serializedVersion: 2
-        x: 4120
-        y: 343
-        width: 2731
-        height: 7774
+        x: 170
+        y: 430
+        width: 2687
+        height: 2468
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f0ade9d788353c0800000000000000
-      internalID: -4372000740129239266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alysa idle_Mesa de trabajo 1_5
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 334
-        width: 2669
-        height: 7792
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dc407c1964f22ca0800000000000000
-      internalID: -6042999017691919147
+      spriteID: d86354a581dc6e600800000000000000
+      internalID: 497310313348413069
       vertices: []
       indices: 
       edges: []
