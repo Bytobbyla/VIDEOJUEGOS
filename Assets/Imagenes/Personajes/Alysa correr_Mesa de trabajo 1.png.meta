@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 121d74f1bac04994c982ec457412d3a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6601629232665008814
+    second: Alysa correr_Mesa de trabajo 1_5
+  - first:
+      213: 3156545976646858160
+    second: Alysa correr_Mesa de trabajo 1_6
+  - first:
+      213: 3495533348730215774
+    second: Alysa correr_Mesa de trabajo 1_7
+  - first:
+      213: -8052858512044892101
+    second: Alysa correr_Mesa de trabajo 1_8
+  - first:
+      213: -4873781459375460785
+    second: Alysa correr_Mesa de trabajo 1_9
+  - first:
+      213: 1201363072402559621
+    second: Alysa correr_Mesa de trabajo 1_10
+  - first:
+      213: 553828655002586906
+    second: Alysa correr_Mesa de trabajo 1_11
+  - first:
+      213: 8376793383759426417
+    second: Alysa correr_Mesa de trabajo 1_12
+  - first:
+      213: -5817368975972734780
+    second: Alysa correr_Mesa de trabajo 1_13
+  - first:
+      213: -7854045932284100805
+    second: Alysa correr_Mesa de trabajo 1_14
+  - first:
+      213: 2705603381610090109
+    second: Alysa correr_Mesa de trabajo 1_15
+  - first:
+      213: 1439716045109557945
+    second: Alysa correr_Mesa de trabajo 1_16
+  - first:
+      213: -7660413298940364033
+    second: Alysa correr_Mesa de trabajo 1_17
+  - first:
+      213: 4527075746278866910
+    second: Alysa correr_Mesa de trabajo 1_18
+  - first:
+      213: 4818248889553166282
+    second: Alysa correr_Mesa de trabajo 1_19
+  - first:
+      213: 971875729333334718
+    second: Alysa correr_Mesa de trabajo 1_20
+  - first:
+      213: -4147347496043549197
+    second: Alysa correr_Mesa de trabajo 1_21
+  - first:
+      213: 3339556195884534396
+    second: Alysa correr_Mesa de trabajo 1_22
+  - first:
+      213: -2224201395588463118
+    second: Alysa correr_Mesa de trabajo 1_23
+  - first:
+      213: -2906728410584317721
+    second: Alysa correr_Mesa de trabajo 1_24
+  - first:
+      213: 7420850865727395743
+    second: Alysa correr_Mesa de trabajo 1_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_0
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 4835
+        width: 2026
+        height: 3843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb80ae945a8409c0800000000000000
+      internalID: -3961889676135986207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_1
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 4819
+        width: 1849
+        height: 3794
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d85616322106f980800000000000000
+      internalID: -8505609599794652967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_2
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 4819
+        width: 1913
+        height: 3843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d9160851c599900800000000000000
+      internalID: 691685265196031303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_3
+      rect:
+        serializedVersion: 2
+        x: 6679
+        y: 4835
+        width: 1946
+        height: 3875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7956ec583550b10800000000000000
+      internalID: 1947054248066127807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_4
+      rect:
+        serializedVersion: 2
+        x: 8785
+        y: 4851
+        width: 1753
+        height: 3811
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2cb30b308824a10800000000000000
+      internalID: 1892224342872015566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_5
+      rect:
+        serializedVersion: 2
+        x: 10683
+        y: 4899
+        width: 1801
+        height: 3939
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa15d76fc2bd9b50800000000000000
+      internalID: 6601629232665008814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_6
+      rect:
+        serializedVersion: 2
+        x: 12709
+        y: 4786
+        width: 1656
+        height: 3908
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5793777dd4ecb20800000000000000
+      internalID: 3156545976646858160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_7
+      rect:
+        serializedVersion: 2
+        x: 14542
+        y: 4770
+        width: 1720
+        height: 3956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d989f7f01a28030800000000000000
+      internalID: 3495533348730215774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_8
+      rect:
+        serializedVersion: 2
+        x: 16439
+        y: 4754
+        width: 1705
+        height: 3988
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30651369df7e3090800000000000000
+      internalID: -8052858512044892101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_9
+      rect:
+        serializedVersion: 2
+        x: 18578
+        y: 4722
+        width: 1640
+        height: 4068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e6a09c599dc5cb0800000000000000
+      internalID: -4873781459375460785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_10
+      rect:
+        serializedVersion: 2
+        x: 20475
+        y: 4690
+        width: 1962
+        height: 4052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58293d869591ca010800000000000000
+      internalID: 1201363072402559621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_11
+      rect:
+        serializedVersion: 2
+        x: 22760
+        y: 4788
+        width: 2083
+        height: 3950
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f8cd73a389fa700800000000000000
+      internalID: 553828655002586906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_12
+      rect:
+        serializedVersion: 2
+        x: 25272
+        y: 4723
+        width: 2019
+        height: 4080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173b2db4339504470800000000000000
+      internalID: 8376793383759426417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_13
+      rect:
+        serializedVersion: 2
+        x: 27784
+        y: 4766
+        width: 1997
+        height: 4015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c864c3fcbd844fa0800000000000000
+      internalID: -5817368975972734780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_14
+      rect:
+        serializedVersion: 2
+        x: 30146
+        y: 4723
+        width: 1933
+        height: 4037
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fba9c46d2d00390800000000000000
+      internalID: -7854045932284100805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 450
+        width: 2341
+        height: 3758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e07ffc0fb3c8520800000000000000
+      internalID: 2705603381610090109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_16
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 429
+        width: 2018
+        height: 3779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba7f267d16eaf310800000000000000
+      internalID: 1439716045109557945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_17
+      rect:
+        serializedVersion: 2
+        x: 4981
+        y: 579
+        width: 2298
+        height: 3779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa3bf3f0beb0b590800000000000000
+      internalID: -7660413298940364033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_18
+      rect:
+        serializedVersion: 2
+        x: 7494
+        y: 601
+        width: 2039
+        height: 3757
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edffc30e76763de30800000000000000
+      internalID: 4527075746278866910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_19
+      rect:
+        serializedVersion: 2
+        x: 9877
+        y: 515
+        width: 2212
+        height: 3800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf9c3d36dbddd240800000000000000
+      internalID: 4818248889553166282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_20
+      rect:
+        serializedVersion: 2
+        x: 12389
+        y: 515
+        width: 2061
+        height: 3779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2bcbc93dbcc7d00800000000000000
+      internalID: 971875729333334718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_21
+      rect:
+        serializedVersion: 2
+        x: 14751
+        y: 558
+        width: 2169
+        height: 3757
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fde73a0d69a176c0800000000000000
+      internalID: -4147347496043549197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_22
+      rect:
+        serializedVersion: 2
+        x: 17177
+        y: 558
+        width: 2062
+        height: 3779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a072b9aac785e20800000000000000
+      internalID: 3339556195884534396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_23
+      rect:
+        serializedVersion: 2
+        x: 19539
+        y: 579
+        width: 1997
+        height: 3822
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f585037d9c0221e0800000000000000
+      internalID: -2224201395588463118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_24
+      rect:
+        serializedVersion: 2
+        x: 21815
+        y: 622
+        width: 2169
+        height: 3800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0069c39e939a7d0800000000000000
+      internalID: -2906728410584317721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alysa correr_Mesa de trabajo 1_25
+      rect:
+        serializedVersion: 2
+        x: 24220
+        y: 622
+        width: 2319
+        height: 3843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97d4d68b882cf660800000000000000
+      internalID: 7420850865727395743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

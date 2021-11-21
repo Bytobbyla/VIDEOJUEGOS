@@ -61,6 +61,7 @@ public class personaje : MonoBehaviour
                 Vector2 movimiento = new Vector2(movH * Time.deltaTime * speed, 0);
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 transform.Translate(movimiento);
+                myAnimator.SetBool("IsRunning", true);
             }
 
             //PERSONAJE MIRANDO A LA IZQUIERDA
@@ -69,6 +70,7 @@ public class personaje : MonoBehaviour
                 Vector2 movimiento = new Vector2(-movH * Time.deltaTime * speed, 0);
                 transform.eulerAngles = new Vector3(0, 180, 0);
                 transform.Translate(movimiento);
+                myAnimator.SetBool("IsRunning", true);
             }
 
             //PERSONAJE QUIETO
@@ -76,6 +78,7 @@ public class personaje : MonoBehaviour
             {
                 Vector2 movimiento = new Vector2(0f, 0f);
                 transform.Translate(movimiento);
+                myAnimator.SetBool("IsRunning", false);
             }
 
 
@@ -98,6 +101,7 @@ public class personaje : MonoBehaviour
         }
         
     }
+    
     public void caer()
     {
         if (MyRb.velocity.y < 0 && !myAnimator.GetBool("takeof"))
