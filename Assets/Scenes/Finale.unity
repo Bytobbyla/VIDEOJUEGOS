@@ -300,6 +300,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 1342428637}
   Background: {fileID: 247797489}
   GameOverMenu: {fileID: 1207642502}
+  objetoActivarDesactivar: {fileID: 0}
+  SaludBoss: {fileID: 0}
 --- !u!4 &115996955
 Transform:
   m_ObjectHideFlags: 0
@@ -2276,17 +2278,53 @@ PrefabInstance:
       value: Fantasma
       objectReference: {fileID: 0}
     - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 810ef3e77848065499daf4a4dee8e979, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c8f21e3c7ad2c468188821caea4aac, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c8f21e3c7ad2c468188821caea4aac, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 810ef3e77848065499daf4a4dee8e979, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 810ef3e77848065499daf4a4dee8e979, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: dialogo.characterImage.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 962fd99dea0cc8241a83f12faa7ca6d1, type: 3}
+      objectReference: {fileID: 21300000, guid: 4a03608ad25eecb46a48d654264f349e, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c8f21e3c7ad2c468188821caea4aac, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 810ef3e77848065499daf4a4dee8e979, type: 3}
     - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: dialogo.characterImage.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: f1c6395a0c344874282f08e4a2d81c08, type: 3}
+      objectReference: {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 810ef3e77848065499daf4a4dee8e979, type: 3}
     - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: dialogo.characterName.Array.data[10]
       value: Fantasma
       objectReference: {fileID: 0}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogo.characterImage.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c8f21e3c7ad2c468188821caea4aac, type: 3}
     - target: {fileID: 8406132846536793896, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_Name
       value: npc
