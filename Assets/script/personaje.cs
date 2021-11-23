@@ -115,8 +115,13 @@ public class personaje : MonoBehaviour
         //DISPARAR RAFAGA CADA 1 SEGUNDO 
         if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextFire && rangodialogo==false)
         {
+            myAnimator.SetLayerWeight(1, 1);
             Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
             nextFire = Time.time + fireRate1;
+        }
+        else if(nextFire < Time.time)
+        {
+            myAnimator.SetLayerWeight(1, 0);
         }
     }
     //(GameObject.Find("GameManager").GetComponent<GameManager>()).GameOver();
