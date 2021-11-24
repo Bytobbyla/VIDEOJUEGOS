@@ -181,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   fireRate1: 0
-  PuntosSalud: 5
+  PuntosSalud: -39
   altura: 6
   tiempoSalto: 1
   InDialogue: 0
