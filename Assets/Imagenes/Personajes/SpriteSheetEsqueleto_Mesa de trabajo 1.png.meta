@@ -1,0 +1,1896 @@
+fileFormatVersion: 2
+guid: 4949c1acbee22e84a92c4867eca2124b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7494054395721117752
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_0
+  - first:
+      213: 6755907782460949406
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_1
+  - first:
+      213: -627245599776986930
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_2
+  - first:
+      213: -3693962679836060575
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_3
+  - first:
+      213: -6946157046656869650
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_4
+  - first:
+      213: -1351098377163497405
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_5
+  - first:
+      213: -914279424993745298
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_6
+  - first:
+      213: 4310012260166997176
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_7
+  - first:
+      213: 4654134568136469900
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_8
+  - first:
+      213: -802993542483811148
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_9
+  - first:
+      213: 307447024709763593
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_10
+  - first:
+      213: 4626725786305933316
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_11
+  - first:
+      213: -391982838667478049
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_12
+  - first:
+      213: -1659697075904518083
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_13
+  - first:
+      213: -6072663419949971970
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_14
+  - first:
+      213: 2397879881624097404
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_15
+  - first:
+      213: -8943484005404128609
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_16
+  - first:
+      213: 7351373804609003898
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_17
+  - first:
+      213: 9027244920370279576
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_18
+  - first:
+      213: -8402997795946944447
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_19
+  - first:
+      213: 7043771729968664999
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_20
+  - first:
+      213: -7626433598160344342
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_21
+  - first:
+      213: 6668767553505179237
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_22
+  - first:
+      213: 1040097397819128739
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_23
+  - first:
+      213: -2067624992445043546
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_24
+  - first:
+      213: -8888300215913984342
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_25
+  - first:
+      213: -1905989785108817413
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_26
+  - first:
+      213: -1389752743095892563
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_27
+  - first:
+      213: 8040235177521332549
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_28
+  - first:
+      213: -5626325164603480374
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_29
+  - first:
+      213: 1418862813932115976
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_30
+  - first:
+      213: -2661208161146469138
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_31
+  - first:
+      213: 5147666277160752110
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_32
+  - first:
+      213: 575293650783137951
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_33
+  - first:
+      213: -4215662051316447437
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_34
+  - first:
+      213: 8279820532661090921
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_35
+  - first:
+      213: -7523264868461868331
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_36
+  - first:
+      213: 5111663868493087739
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_37
+  - first:
+      213: -2193710758866921864
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_38
+  - first:
+      213: -1462810962132389763
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_39
+  - first:
+      213: 5592952257827031994
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_40
+  - first:
+      213: -7911741330678098056
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_41
+  - first:
+      213: 5554403601587307468
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_42
+  - first:
+      213: 9105474607824831374
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_43
+  - first:
+      213: 7477035557157769100
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_44
+  - first:
+      213: -3678111129495970276
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_45
+  - first:
+      213: -2441676816051199991
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_46
+  - first:
+      213: -7508046791110991056
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_47
+  - first:
+      213: -211860204615910030
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_48
+  - first:
+      213: -6381453628878064836
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_49
+  - first:
+      213: -137366160574686941
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_50
+  - first:
+      213: 5213981085465585742
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_51
+  - first:
+      213: 3844028048523522376
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_52
+  - first:
+      213: 719573078718010419
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_53
+  - first:
+      213: 5550033755815245412
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_54
+  - first:
+      213: 2466544306860407754
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_55
+  - first:
+      213: -8375816906849656385
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_56
+  - first:
+      213: -747265140750538240
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_57
+  - first:
+      213: -8000755814591695315
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_58
+  - first:
+      213: -2652633188324565172
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_59
+  - first:
+      213: -508101300694963849
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_60
+  - first:
+      213: -5149474546785023360
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_61
+  - first:
+      213: 8263287311917170337
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_62
+  - first:
+      213: 8780511716259252336
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_63
+  - first:
+      213: 7141472236613847382
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_64
+  - first:
+      213: -3256378566771298666
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_65
+  - first:
+      213: 3744773555287671257
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_66
+  - first:
+      213: 1635379517374988623
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_67
+  - first:
+      213: 8953844830013499739
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_68
+  - first:
+      213: 726324057109521883
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_69
+  - first:
+      213: 6284474604818077026
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_70
+  - first:
+      213: 596866191618554572
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_71
+  - first:
+      213: 841607444951213287
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_72
+  - first:
+      213: -9070819014501445130
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_73
+  - first:
+      213: -4207864859213905770
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_74
+  - first:
+      213: 6551858911850485213
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_75
+  - first:
+      213: -4509495922253669755
+    second: SpriteSheetEsqueleto_Mesa de trabajo 1_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_0
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3470
+        width: 274
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf86977b35cff790800000000000000
+      internalID: -7494054395721117752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 3470
+        width: 273
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c1e4755ec1cd50800000000000000
+      internalID: 6755907782460949406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_2
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3470
+        width: 276
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8ad5643739b47f0800000000000000
+      internalID: -627245599776986930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_3
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3470
+        width: 275
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16452de93886cbcc0800000000000000
+      internalID: -3693962679836060575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_4
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 3470
+        width: 276
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eead0f7e7fa4a9f90800000000000000
+      internalID: -6946157046656869650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3470
+        width: 276
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34020943f2fef3de0800000000000000
+      internalID: -1351098377163497405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_6
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 3470
+        width: 273
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66accff4b3df43f0800000000000000
+      internalID: -914279424993745298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_7
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3470
+        width: 273
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b415d0b05d30db30800000000000000
+      internalID: 4310012260166997176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_8
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 3470
+        width: 273
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de3a62bbec69040800000000000000
+      internalID: 4654134568136469900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_9
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 3470
+        width: 273
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4e157a0a13bd4f0800000000000000
+      internalID: -802993542483811148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_10
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 3470
+        width: 273
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028317a075444400800000000000000
+      internalID: 307447024709763593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_11
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 3470
+        width: 272
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b7e5d69e653040800000000000000
+      internalID: 4626725786305933316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_12
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 3470
+        width: 273
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbfc2f5fa56f8af0800000000000000
+      internalID: -391982838667478049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2936
+        width: 273
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e4fb8d4297f8e0800000000000000
+      internalID: -1659697075904518083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2926
+        width: 274
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef58f5d3bc099bba0800000000000000
+      internalID: -6072663419949971970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_15
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2921
+        width: 274
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72924e3c0bf64120800000000000000
+      internalID: 2397879881624097404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_16
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2921
+        width: 273
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9acf738eac52e380800000000000000
+      internalID: -8943484005404128609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_17
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2926
+        width: 275
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71e4daa683550660800000000000000
+      internalID: 7351373804609003898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_18
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 2921
+        width: 275
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894be1b3d67374d70800000000000000
+      internalID: 9027244920370279576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_19
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2339
+        width: 276
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148213c860e826b80800000000000000
+      internalID: -8402997795946944447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2353
+        width: 297
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a198b3a11180c160800000000000000
+      internalID: 7043771729968664999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_21
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2347
+        width: 303
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea6c8e8c07792690800000000000000
+      internalID: -7626433598160344342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_22
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2342
+        width: 305
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b35cd1c83c8c50800000000000000
+      internalID: 6668767553505179237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_23
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2337
+        width: 299
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab31d8921b2f6e00800000000000000
+      internalID: 1040097397819128739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_24
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2342
+        width: 287
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ace79c26025e43e0800000000000000
+      internalID: -2067624992445043546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_25
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2347
+        width: 267
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae4b6dbb0a66a480800000000000000
+      internalID: -8888300215913984342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_26
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2342
+        width: 246
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9d01983609c85e0800000000000000
+      internalID: -1905989785108817413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_27
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 2337
+        width: 226
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5052e4e3b96bce0800000000000000
+      internalID: -1389752743095892563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_28
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 2337
+        width: 220
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54142c28b47a49f60800000000000000
+      internalID: 8040235177521332549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_29
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 2331
+        width: 220
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e7f482174be1b0800000000000000
+      internalID: -5626325164603480374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_30
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 2323
+        width: 223
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8085f693630d0b310800000000000000
+      internalID: 1418862813932115976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_31
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 2337
+        width: 231
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee48e71f64d711bd0800000000000000
+      internalID: -2661208161146469138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_32
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 2329
+        width: 238
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39c60a43f207740800000000000000
+      internalID: 5147666277160752110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_33
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1790
+        width: 244
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f907770078adbf700800000000000000
+      internalID: 575293650783137951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_34
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1795
+        width: 255
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337403a23b5fe75c0800000000000000
+      internalID: -4215662051316447437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_35
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1803
+        width: 264
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aff35f7e4d7e270800000000000000
+      internalID: 8279820532661090921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_36
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1786
+        width: 267
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da872c467ef79790800000000000000
+      internalID: -7523264868461868331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_37
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1787
+        width: 265
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3cab4a43740f640800000000000000
+      internalID: 5111663868493087739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_38
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1793
+        width: 260
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876d8c500bf5e81e0800000000000000
+      internalID: -2193710758866921864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_39
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1785
+        width: 257
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d703d842e2d03bbe0800000000000000
+      internalID: -1462810962132389763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_40
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1782
+        width: 259
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbcf7d12782e9d40800000000000000
+      internalID: 5592952257827031994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_41
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1780
+        width: 258
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877d72e8d29d33290800000000000000
+      internalID: -7911741330678098056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_42
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 1779
+        width: 268
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc303cba5a4351d40800000000000000
+      internalID: 5554403601587307468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_43
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 1779
+        width: 275
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830db6b9e42d5e70800000000000000
+      internalID: 9105474607824831374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_44
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1241
+        width: 278
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f8a556934c3c760800000000000000
+      internalID: 7477035557157769100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_45
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1246
+        width: 278
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e5bf94a69b4fcc0800000000000000
+      internalID: -3678111129495970276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_46
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1243
+        width: 269
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90026f25fdb6d1ed0800000000000000
+      internalID: -2441676816051199991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_47
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1251
+        width: 287
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03361da093f0ec790800000000000000
+      internalID: -7508046791110991056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_48
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1266
+        width: 313
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27db3d134425f0df0800000000000000
+      internalID: -211860204615910030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_49
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 1267
+        width: 331
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3378142cb58077a0800000000000000
+      internalID: -6381453628878064836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_50
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1273
+        width: 332
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32959ca643af71ef0800000000000000
+      internalID: -137366160574686941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_51
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 1259
+        width: 335
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4828c02c28cb5840800000000000000
+      internalID: 5213981085465585742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_52
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 1278
+        width: 329
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f1e2c42bb85530800000000000000
+      internalID: 3844028048523522376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_53
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 1291
+        width: 322
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334dbe217ef6cf900800000000000000
+      internalID: 719573078718010419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_54
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 1288
+        width: 320
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4667bcaab4ea50d40800000000000000
+      internalID: 5550033755815245412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_55
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 1291
+        width: 292
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb3d219afcea3220800000000000000
+      internalID: 2466544306860407754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 726
+        width: 273
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e38376ee13cb80800000000000000
+      internalID: -8375816906849656385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_57
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 718
+        width: 269
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a288c405e21a5f0800000000000000
+      internalID: -747265140750538240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_58
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 718
+        width: 268
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26fe98f9fa97f090800000000000000
+      internalID: -8000755814591695315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_59
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 728
+        width: 262
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f90826b24ff2bd0800000000000000
+      internalID: -2652633188324565172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_60
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 699
+        width: 278
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a92e1f8cd2f8f0800000000000000
+      internalID: -508101300694963849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_61
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 155
+        width: 273
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a86face246988b0800000000000000
+      internalID: -5149474546785023360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_62
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 145
+        width: 249
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeb0d787081da270800000000000000
+      internalID: 8263287311917170337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_63
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 153
+        width: 262
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078c9c182e4aad970800000000000000
+      internalID: 8780511716259252336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_64
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 158
+        width: 268
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659ceac792b9b1360800000000000000
+      internalID: 7141472236613847382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_65
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 166
+        width: 270
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea66152f40fc2d0800000000000000
+      internalID: -3256378566771298666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_66
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 171
+        width: 249
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1c23735bb18f330800000000000000
+      internalID: 3744773555287671257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_67
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 171
+        width: 250
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f410616a10902b610800000000000000
+      internalID: 1635379517374988623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_68
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 158
+        width: 231
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592ce2fe62724c70800000000000000
+      internalID: 8953844830013499739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_69
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 155
+        width: 330
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd565d7b1eb641a00800000000000000
+      internalID: 726324057109521883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_71
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 145
+        width: 382
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3dd193ae784800800000000000000
+      internalID: 596866191618554572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_74
+      rect:
+        serializedVersion: 2
+        x: 4023
+        y: 150
+        width: 360
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690c4bb6439aa95c0800000000000000
+      internalID: -4207864859213905770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetEsqueleto_Mesa de trabajo 1_75
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 150
+        width: 325
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5535397f0ecea50800000000000000
+      internalID: 6551858911850485213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
