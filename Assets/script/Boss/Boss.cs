@@ -41,7 +41,7 @@ public class Boss : MonoBehaviour
         target = GameObject.Find("personaje");
 
         
-        
+        countdown = timeToShoot;
         countdownTp = timeToTp;
 
     }
@@ -62,18 +62,16 @@ public class Boss : MonoBehaviour
             countdownTp -= Time.deltaTime;
         }
 
-        if (Time.time >= countdown)
+        if (countdown <= 0)
         {
-            ani.SetBool("shoot", true);
+
             Instantiate(Disparo, transform.position, Quaternion.identity);
-            countdown = Time.time + timeToShoot;
+            countdown = timeToShoot;
         }
-        else if(countdown < Time.time)
+        else
         {
-            ani.SetBool("shoot", false);
-            
+            countdown -= Time.deltaTime;
         }
-        
 
     }
     public void Teleport()

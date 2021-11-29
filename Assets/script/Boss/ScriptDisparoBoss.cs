@@ -13,9 +13,7 @@ public class ScriptDisparoBoss : MonoBehaviour
     private Vector2 target;
 
     public personaje personaje;
-    Animator myAnimator;
 
-    CircleCollider2D circleCollider2D;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +21,7 @@ public class ScriptDisparoBoss : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector2(player.position.x, player.position.y);
         MyRb = GetComponent<Rigidbody2D>();
-        myAnimator = GetComponent<Animator>();
-        circleCollider2D = GetComponent<CircleCollider2D>();
+
     }
 
     // Update is called once per frame
@@ -33,7 +30,6 @@ public class ScriptDisparoBoss : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
         if(transform.position.x==target.x && transform.position.y == target.y)
         {
-           
             DestruirDisparo();
         }
     }
@@ -44,20 +40,18 @@ public class ScriptDisparoBoss : MonoBehaviour
         string etiqueta = objeto.tag;
         if (etiqueta == "Player")
         {
-            myAnimator.SetTrigger("explota");
-            circleCollider2D.enabled = false;
+            
+            
+
             int puntos = puntosDanoDisparo;
             personaje.PuntosSalud = personaje.PuntosSalud - puntos;
             darPuntosDeDanoDisparo();
             DestruirDisparo();
         }
-        
-       
     }
     void DestruirDisparo()
     {
-        myAnimator.SetTrigger("explota");
-        Destroy(gameObject,0.7f);
+        Destroy(gameObject);
     }
     public int darPuntosDeDanoDisparo()
     {
