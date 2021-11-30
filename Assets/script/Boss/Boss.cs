@@ -54,6 +54,7 @@ public class Boss : MonoBehaviour
         Comportamientos();
         if(countdownTp <= 0)
         {
+            ani.SetTrigger("tp");
             Teleport();
             countdownTp = timeToTp;
         }
@@ -64,7 +65,7 @@ public class Boss : MonoBehaviour
 
         if (countdown <= 0)
         {
-
+            ani.SetTrigger("shoot");
             Instantiate(Disparo, transform.position, Quaternion.identity);
             countdown = timeToShoot;
         }

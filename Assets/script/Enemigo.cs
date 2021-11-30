@@ -38,7 +38,7 @@ public class Enemigo : MonoBehaviour
     void Update()
     {
         Comportamientos();
-
+        
 
     }
     public void Final_Ani()
