@@ -1389,7 +1389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.96
+      value: -23.1
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1874,7 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.91
+      value: -23.27
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3152,7 +3152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476976156}
   - component: {fileID: 476976155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: piedras plataformas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4033,13 +4033,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586884286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.1563, y: 1.5, z: 20.2}
-  m_LocalScale: {x: -1.388564, y: 1.0189613, z: 1.4014908}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0069981683, w: 0.9999755}
+  m_LocalPosition: {x: 69.64, y: -0.27, z: 20.2}
+  m_LocalScale: {x: -1.4059211, y: 1.3628607, z: 1.4014908}
   m_Children: []
   m_Father: {fileID: 170405161}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.802}
 --- !u!212 &586884288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5542,7 +5542,7 @@ GameObject:
   - component: {fileID: 836350599}
   - component: {fileID: 836350598}
   - component: {fileID: 836350597}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: piedras 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6109,7 +6109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.9
+      value: -23.02
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9881,7 +9881,7 @@ GameObject:
   - component: {fileID: 1469859878}
   - component: {fileID: 1469859877}
   - component: {fileID: 1469859876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: piedras 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10418,7 +10418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.91
+      value: -23.32
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12762,7 +12762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.95
+      value: -23.2
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14021,7 +14021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.9
+      value: -23.14
       objectReference: {fileID: 0}
     - target: {fileID: 7701610132833339019, guid: 0126efb598057ac489e333bab526f497, type: 3}
       propertyPath: m_LocalPosition.z

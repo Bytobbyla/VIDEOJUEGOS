@@ -1078,7 +1078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
@@ -1383,7 +1383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
@@ -2217,7 +2217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752933630}
   - component: {fileID: 752933629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Recurso 16@5x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2458,7 +2458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8424775886116649058, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
