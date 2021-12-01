@@ -3214,6 +3214,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1555272195528438553, guid: f99fad3289d30074cbe1d0de6318a1c4, type: 3}
+      propertyPath: MuerteXenor
+      value: 
+      objectReference: {fileID: 5489075859038638718, guid: 9fa7c773a58910547a1837e4864b5e59, type: 3}
+    - target: {fileID: 1555272195528438553, guid: f99fad3289d30074cbe1d0de6318a1c4, type: 3}
       propertyPath: barraDeVida
       value: 
       objectReference: {fileID: 1231138326}

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerTexto : MonoBehaviour
+public class TriggerTextoXenor : MonoBehaviour
 
 {
     public Dialogo dialogo;
@@ -21,11 +21,10 @@ public class TriggerTexto : MonoBehaviour
     {
         
         
-        if (Input.GetKey(KeyCode.Q) && dialogue==true && In==false)
+        if (dialogue==true && In==false)
         {
             FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
             activarDialogo.SetActive(true);
-            enDialogo();
         }
     }
     
@@ -46,7 +45,6 @@ public class TriggerTexto : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             dialogue = false;
-            fueraDialogo();
             FindObjectOfType<personaje>().fueraRangoDialogo();
         }
 

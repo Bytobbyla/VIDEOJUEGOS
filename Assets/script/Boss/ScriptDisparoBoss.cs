@@ -7,7 +7,7 @@ public class ScriptDisparoBoss : MonoBehaviour
     [SerializeField] int puntosDanoDisparo;
     
     private Rigidbody2D MyRb;
-
+    public Animator ani;
     public float speed;
     private Transform player;
     private Vector2 target;
@@ -21,6 +21,7 @@ public class ScriptDisparoBoss : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector2(player.position.x, player.position.y);
         MyRb = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
 
     }
 
@@ -30,7 +31,8 @@ public class ScriptDisparoBoss : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
         if(transform.position.x==target.x && transform.position.y == target.y)
         {
-            DestruirDisparo();
+            StartCoroutine(Destruir());
+            
         }
     }
     
@@ -58,5 +60,10 @@ public class ScriptDisparoBoss : MonoBehaviour
         return puntosDanoDisparo;
 
     }
-
+    private IEnumerator Destruir()
+    {
+        ani.SetTrigger("Destruir");
+        yield return new WaitForSeconds(0.25f);
+        DestruirDisparo();
+    }
 }

@@ -28,6 +28,7 @@ public class Boss : MonoBehaviour
 
     public Transform[] transforms;
     public GameObject Disparo;
+    public GameObject MuerteXenor;
 
     public float timeToShoot;
     private float countdown;
@@ -202,14 +203,21 @@ public class Boss : MonoBehaviour
             if (PuntosSaludEnemigo < 1)
             {
                 
-                Destroy(this.gameObject);
                 
+                StartCoroutine(Muerte());
                 (GameObject.Find("GameManager").GetComponent<GameManager>()).ActivarObjeto();
                 (GameObject.Find("GameManager").GetComponent<GameManager>()).BossSalud();
+                ani.SetBool("Death", true);
 
             }
 
 
         }
+    }
+    private IEnumerator Muerte()
+    {
+        Destroy(this.gameObject);
+        Instantiate(MuerteXenor, transform.position, transform.rotation);
+        yield return new WaitForSeconds(0.75f);
     }
 }
