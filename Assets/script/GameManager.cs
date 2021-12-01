@@ -8,16 +8,20 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject Background;
     [SerializeField] GameObject GameOverMenu;
+    [SerializeField] GameObject Cinematica;
+    
+
    
     public GameObject objetoActivarDesactivar;
     public GameObject SaludBoss;
-
+    
     
     int personaje = 1;
     // Start is called before the first frame update
     void Start()
     {
         pauseMenu.SetActive(false);
+        CinematicaControl();
     }
 
     // Update is called once per frame
@@ -25,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
        
         PauseGame();
+        
     }
     
     public void Menu()
@@ -39,6 +44,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(1);
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
+        CinematicaControl();
 
     }
 
@@ -99,11 +105,33 @@ public class GameManager : MonoBehaviour
     }
     public void CargarJuego()
     {
-        Time.timeScale = 1;
+       
         int Scene = SceneManager.GetActiveScene().buildIndex;
              SceneManager.LoadScene(Scene);
-       
+        regreso();
+
+
     }
+    public void CinematicaControl()
+    {
+        
+        Cinematica.SetActive(true);
+        (GameObject.Find("personaje").GetComponent<personaje>()).enDialogo();
+        StartCoroutine(TiempoCinematica());
+    }
+    public void ApagarCinematica()
+    {
+        Cinematica.SetActive(false);
+        (GameObject.Find("personaje").GetComponent<personaje>()).fueraDialogo();
+    }
+    private IEnumerator TiempoCinematica()
+    {
+        yield return new WaitForSeconds(78f);
+        ApagarCinematica();
+    }
+
+
+
 
 
 
