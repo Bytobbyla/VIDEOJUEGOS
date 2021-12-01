@@ -97,8 +97,10 @@ public class GameManager : MonoBehaviour
     }
     public void CargarJuego()
     {
+        Time.timeScale = 1;
         int Scene = SceneManager.GetActiveScene().buildIndex;
              SceneManager.LoadScene(Scene);
+       
     }
 
 
