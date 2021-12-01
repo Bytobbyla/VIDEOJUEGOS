@@ -95,6 +95,12 @@ public class GameManager : MonoBehaviour
     {
         SaludBoss.SetActive(false);
     }
+    public void CargarJuego()
+    {
+        int Scene = SceneManager.GetActiveScene().buildIndex;
+             SceneManager.LoadScene(Scene);
+    }
+
 
 
 }
