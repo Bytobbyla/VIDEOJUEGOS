@@ -181,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   fireRate1: 0
-  PuntosSalud: -107
+  PuntosSalud: -151
   sfx_fall: {fileID: 8300000, guid: 68c3e5c2327597748b3c3d9e307b5c73, type: 3}
   sfx_bullet: {fileID: 8300000, guid: b66553083e8a3cc4c8b47287777a6d5d, type: 3}
   sfx_jump: {fileID: 8300000, guid: 69ce04d2b3bfb0744bbf3b0ceec5487a, type: 3}

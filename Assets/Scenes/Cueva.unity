@@ -3639,6 +3639,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2357459519023580810, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
   m_PrefabInstance: {fileID: 2357459519614792903}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &767437295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2357459519023580809, guid: 534e46422f7e0a046947c92a8f1bb7dd, type: 3}
+  m_PrefabInstance: {fileID: 2357459519614792903}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767437292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848cda5d2a55ae243bd766721ab60b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779292466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +4889,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 767437292}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: dano
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 767437295}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4591a062541212c4c94051ede135b531, type: 3}
 --- !u!224 &1094751965 stripped
@@ -5083,6 +5102,22 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 767437292}
+    - target: {fileID: 4476232938615768630, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: atacando
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4476232938615768630, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: rango_ataque
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: dano
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 767437295}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4591a062541212c4c94051ede135b531, type: 3}
 --- !u!4 &1302342044 stripped
@@ -5573,6 +5608,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 767437292}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: dano
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327828969224117192, guid: 4591a062541212c4c94051ede135b531, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 767437295}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4591a062541212c4c94051ede135b531, type: 3}
 --- !u!1001 &1830204294
