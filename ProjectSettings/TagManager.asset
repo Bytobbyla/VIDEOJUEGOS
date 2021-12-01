@@ -14,6 +14,7 @@ TagManager:
   - DeathZone
   - Salud
   - disparoboss
+  - piso
   layers:
   - Default
   - TransparentFX

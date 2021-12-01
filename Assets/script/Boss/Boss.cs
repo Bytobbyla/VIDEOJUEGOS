@@ -8,6 +8,8 @@ public class Boss : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] int PuntosSaludEnemigo;
+    [SerializeField] AudioClip sfx_bullet;
+    [SerializeField] AudioClip sfx_death;
     public int rutina;
     public float cronometro;
     public Animator ani;
@@ -67,6 +69,7 @@ public class Boss : MonoBehaviour
         if (countdown <= 0)
         {
             ani.SetTrigger("shoot");
+            AudioSource.PlayClipAtPoint(sfx_bullet, Camera.main.transform.position);
             Instantiate(Disparo, transform.position, Quaternion.identity);
             countdown = timeToShoot;
         }
@@ -217,6 +220,7 @@ public class Boss : MonoBehaviour
     private IEnumerator Muerte()
     {
         Destroy(this.gameObject);
+        AudioSource.PlayClipAtPoint(sfx_bullet, Camera.main.transform.position);
         Instantiate(MuerteXenor, transform.position, transform.rotation);
         yield return new WaitForSeconds(0.75f);
     }

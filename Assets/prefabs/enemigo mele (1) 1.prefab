@@ -114,6 +114,8 @@ MonoBehaviour:
   rango_ataque: 1
   rango: {fileID: 8327828969503989429}
   Hit: {fileID: 8327828969224117197}
+  sfx_death: {fileID: 8300000, guid: e15fce722338e4b4b9cd1482e2bf5d06, type: 3}
+  sfx_attack: {fileID: 8300000, guid: 92c3e70afdc7c3d45aed43f1862fd769, type: 3}
 --- !u!61 &6428824066082583222
 BoxCollider2D:
   m_ObjectHideFlags: 0

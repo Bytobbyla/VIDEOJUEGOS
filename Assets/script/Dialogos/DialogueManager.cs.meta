@@ -3,7 +3,12 @@ guid: dfdd3c38420dde5458754adf660424c6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - nameText: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - dialogueImage: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - sfx_int: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

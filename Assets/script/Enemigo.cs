@@ -19,14 +19,15 @@ public class Enemigo : MonoBehaviour
     public float rango_ataque;
     public GameObject rango;
     public GameObject Hit;
+    [SerializeField] AudioClip sfx_death;
+    [SerializeField] AudioClip sfx_attack;
 
 
-   
-  
-   
+
+
 
     //variable para guardar jugador
-   
+
     void Start()
     {
         ani = GetComponent<Animator>();
@@ -49,6 +50,7 @@ public class Enemigo : MonoBehaviour
     }
     public void ColliderWeaponTrue()
     {
+        AudioSource.PlayClipAtPoint(sfx_attack, Camera.main.transform.position);
         Hit.GetComponent<BoxCollider2D>().enabled = true;
     }
     public void ColliderWeaponFalse()
@@ -160,7 +162,7 @@ public class Enemigo : MonoBehaviour
             int puntos = collision.gameObject.GetComponent<Bullet>().darPuntosDeDano();
             if (PuntosSaludEnemigo < 1)
             {
-
+                AudioSource.PlayClipAtPoint(sfx_death, Camera.main.transform.position);
                 Destroy(this.gameObject);
             }
 

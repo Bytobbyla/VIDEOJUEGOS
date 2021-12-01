@@ -7,7 +7,7 @@ public class TriggerTexto : MonoBehaviour
 
 {
     public Dialogo dialogo;
-    
+    [SerializeField] AudioClip sfx_int;
     [SerializeField] private GameObject activarDialogo;
     public bool dialogue;
     private bool In;
@@ -23,6 +23,7 @@ public class TriggerTexto : MonoBehaviour
         
         if (Input.GetKey(KeyCode.Q) && dialogue==true && In==false)
         {
+            AudioSource.PlayClipAtPoint(sfx_int, Camera.main.transform.position);
             FindObjectOfType<DialogueManager>().StartDialogo(dialogo);
             activarDialogo.SetActive(true);
             enDialogo();

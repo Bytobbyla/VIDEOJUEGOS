@@ -139,6 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosDeDano: 4
   speed: 6
+  sfx_explotion: {fileID: 8300000, guid: 8e482c7224537114fa772d750c2e366f, type: 3}
 --- !u!95 &-7617939555800621186
 Animator:
   serializedVersion: 3

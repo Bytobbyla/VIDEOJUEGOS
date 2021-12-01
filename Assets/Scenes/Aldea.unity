@@ -1744,6 +1744,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4be03bb54e6416b4bbc99e66df8c654f, type: 3}
     - {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
     - {fileID: 21300000, guid: 2cec7cd1f615e524797912327576af3b, type: 3}
+  sfx_int: {fileID: 8300000, guid: 18750cf7ecf39f140ae6ac0e1c77ae38, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &504153804
@@ -1786,6 +1787,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1923,7 +1925,103 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 214ea27d3d4a71b4db7c7fdff174fe25, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.612
+  m_Volume: 0.545
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &519420035
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3e56773daff80ee42a67706d4915e2bb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.36
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2773,7 +2871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6766615598683709674, guid: 6feeaa7378b675144be1a82a4b92960f, type: 3}
       propertyPath: m_TagString
-      value: objeto
+      value: piso
       objectReference: {fileID: 0}
     - target: {fileID: 6766615598683709675, guid: 6feeaa7378b675144be1a82a4b92960f, type: 3}
       propertyPath: m_SortingOrder
@@ -3857,6 +3955,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 94091351e61e4784d8ed841a4cd144f7, type: 3}
     - {fileID: 21300000, guid: 566b3dc5227e43547af16bdbade31ffd, type: 3}
     - {fileID: 21300000, guid: 357943ba26b1fb44d93c76c66d9a19cf, type: 3}
+  sfx_int: {fileID: 8300000, guid: 18750cf7ecf39f140ae6ac0e1c77ae38, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &1121428091
@@ -4842,7 +4941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293369018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.62, y: -1.74, z: 0}
+  m_LocalPosition: {x: -11.55, y: -1.74, z: 0}
   m_LocalScale: {x: 17.984957, y: 10.18078, z: 0.076194555}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5170,6 +5269,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4a03608ad25eecb46a48d654264f349e, type: 3}
     - {fileID: 21300000, guid: eb5be7c45581daf4fa9de69df9a45e82, type: 3}
     - {fileID: 21300000, guid: 37b75312d91c43c4ca677414e2379d7a, type: 3}
+  sfx_int: {fileID: 8300000, guid: 18750cf7ecf39f140ae6ac0e1c77ae38, type: 3}
   activarDialogo: {fileID: 2094577113}
   dialogue: 0
 --- !u!61 &1400420735

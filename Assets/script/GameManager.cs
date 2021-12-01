@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject Background;
     [SerializeField] GameObject GameOverMenu;
-
+   
     public GameObject objetoActivarDesactivar;
     public GameObject SaludBoss;
 
@@ -69,9 +69,11 @@ public class GameManager : MonoBehaviour
         personaje--;
         if(personaje < 1)
         {
+            
             Time.timeScale = 0;
             Background.SetActive(false);
             GameOverMenu.SetActive(true);
+            
         }
     }
     public void DetenerJuego()

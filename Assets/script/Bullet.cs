@@ -8,11 +8,14 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D MyRb;
     public float speed;
     Animator myAnimator;
+    [SerializeField] AudioClip sfx_explotion;
+    private CircleCollider2D myCollider;
     // Start is called before the first frame update
     void Start()
     {
         MyRb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+        myCollider = GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
@@ -28,10 +31,13 @@ public class Bullet : MonoBehaviour
         string etiqueta = objeto.tag;
         if (etiqueta != "Player")
         {
+            Destroy(gameObject, 0.3f);
             MyRb.velocity = transform.right * 0;
             myAnimator.SetTrigger("explota");
-
-            Destroy(gameObject, 0.3f);
+            
+            AudioSource.PlayClipAtPoint(sfx_explotion, Camera.main.transform.position);
+            
+            
         }
 
     }

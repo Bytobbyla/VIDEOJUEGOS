@@ -10,6 +10,11 @@ public class personaje : MonoBehaviour
     public float speed;
     [SerializeField] float fireRate1;
     [SerializeField] public float PuntosSalud;
+
+    [SerializeField] AudioClip sfx_fall;
+    [SerializeField] AudioClip sfx_bullet;
+    [SerializeField] AudioClip sfx_jump;
+    
     public float altura;
     public float tiempoSalto;
     private Rigidbody2D MyRb;
@@ -87,11 +92,13 @@ public class personaje : MonoBehaviour
             {
                 MyRb.velocity = new Vector2(MyRb.velocity.x, altura);
                 myAnimator.SetTrigger("salto");
+                AudioSource.PlayClipAtPoint(sfx_jump, Camera.main.transform.position);
                 myAnimator.SetBool("itsFalling", false);
 
             }
             if (TocaElPiso == true)
             {
+                
                 myAnimator.SetBool("itsFalling", false);
             }
            
@@ -117,6 +124,7 @@ public class personaje : MonoBehaviour
         {
             myAnimator.SetLayerWeight(1, 1);
             Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+            AudioSource.PlayClipAtPoint(sfx_bullet, Camera.main.transform.position);
             nextFire = Time.time + fireRate1;
         }
         else if(nextFire < Time.time)
@@ -151,6 +159,10 @@ public class personaje : MonoBehaviour
         if (collision.gameObject.CompareTag("disparoboss"))
         {
             PuntosSalud--; ;
+        }
+        if(collision.gameObject.CompareTag("piso"))
+        {
+            AudioSource.PlayClipAtPoint(sfx_fall, Camera.main.transform.position);
         }
 
     }

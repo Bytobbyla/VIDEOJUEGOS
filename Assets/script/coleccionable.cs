@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class coleccionable : MonoBehaviour
 {
+    [SerializeField] AudioClip sfx_recoleccion;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class coleccionable : MonoBehaviour
         string etiqueta = objeto.tag;
         if (etiqueta == "Player")
         {
+            AudioSource.PlayClipAtPoint(sfx_recoleccion, Camera.main.transform.position);
             Destroy(this.gameObject);
         }
 
