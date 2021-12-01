@@ -195,6 +195,10 @@ PrefabInstance:
       value: 21.262674
       objectReference: {fileID: 0}
     - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: sfx_int
+      value: 
+      objectReference: {fileID: 8300000, guid: 7d58c14abe9b3cc4f9ee057f4a78e065, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: dialogue
       value: 1
       objectReference: {fileID: 0}
@@ -4573,6 +4577,14 @@ PrefabInstance:
     - target: {fileID: 4714799096200168983, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: sfx_int
+      value: 
+      objectReference: {fileID: 8300000, guid: 7d58c14abe9b3cc4f9ee057f4a78e065, type: 3}
+    - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
+      propertyPath: dialogue
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6511242887932760104, guid: 288f0acb535d47b41885afc270fabb84, type: 3}
       propertyPath: dialogo.name
